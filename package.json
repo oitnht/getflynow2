@@ -7,11 +7,9 @@
     "node": "20.x"
   },
   "scripts": {
-    "build:client": "vite build",
+    "build": "vite build",
     "dev": "vite dev --host 0.0.0.0 --port 5000",
     "preview": "vite preview --host 0.0.0.0 --port 5000",
-    "dev:client": "vite dev --host 0.0.0.0 --port 5000",
-    "build:client": "vite build",
     "check": "tsc"
   },
   "dependencies": {
