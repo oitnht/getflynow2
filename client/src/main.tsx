@@ -1,5 +1,11 @@
 import { createRoot } from "react-dom/client";
 import App from "./App";
+import { AuthProvider } from "./authContext";  // Adjust this path if needed
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(<App />);
+const root = createRoot(document.getElementById("root")!);
+root.render(
+  <AuthProvider>
+    <App />
+  </AuthProvider>
+);
