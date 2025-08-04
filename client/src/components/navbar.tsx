@@ -1,10 +1,8 @@
 import { Link, useLocation } from "wouter";
-import { useAuth } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 import { Plane } from "lucide-react";
 
 export default function Navbar() {
-  const { user, logout } = useAuth();
   const [location, setLocation] = useLocation();
 
   return (
