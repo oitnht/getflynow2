@@ -6,7 +6,6 @@ import StructuredData from "@/components/structured-data";
 import SkipLinks from "@/components/skip-links";
 import Navbar from "@/components/navbar";
 import Home from "@/pages/home";
-import Auth from "@/pages/auth";
 import Dashboard from "@/pages/dashboard";
 import Trips from "@/pages/trips";
 import Contact from "@/pages/contact";
@@ -24,7 +23,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/trips" element={<Trips />} />
           <Route path="/contact" element={<Contact />} />
