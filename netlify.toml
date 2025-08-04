@@ -1,7 +1,7 @@
 
 [build]
   command = "npm run build:client"
-  publish = "dist/public"
+  publish = "build"
   functions = "netlify/functions"
 
 [[redirects]]
